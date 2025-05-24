@@ -1,0 +1,10 @@
+services:
+  - type: web
+    name: updated-todolist-api
+    env: node
+    region: oregon
+    plan: free
+    branch: main
+    buildCommand: npm install
+    startCommand: npm start
+    rootDir: .
